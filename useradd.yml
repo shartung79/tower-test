@@ -1,5 +1,6 @@
 - name: Setup Ansible Tower test endpoints
   hosts: all
+  gather_facts: no
 
   tasks:
   - name: remote user exists
