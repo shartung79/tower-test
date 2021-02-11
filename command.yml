@@ -1,0 +1,6 @@
+- name: Setup Ansible Tower test endpoints
+  hosts: all
+
+  tasks:
+  - name: remote user exists
+    shell: /root/execute_local.sh
