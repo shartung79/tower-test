@@ -1,0 +1,7 @@
+- name: Setup Ansible Tower test endpoints
+
+  tasks:
+  - name: remote user exists
+    user:
+      name: hans
+      state: present
